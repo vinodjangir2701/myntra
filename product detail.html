@@ -1842,8 +1842,22 @@
     <span></span>
     <p class="freeShippingBanner-sidebar-content">UPTO ₹200 OFF</p>
   </div>
+
+  <script>
+    let x = document.querySelector('.menu-toggle');
+    x.addEventListener('click', function () {
+      let y = document.querySelector('.mb-header');
+      if (y.style.display === "none") {
+        y.style.display = "block";
+      }
+      else {
+        y.style.display = "none";
+      }
+    });
+  </script>
 </body>
 
 
 </html>
+
 
