@@ -1509,9 +1509,10 @@ main hr {
 
 @media screen and (max-width: 768px) {
 
-  .pd-mb-footer{
+  .pd-mb-footer {
     display: none;
   }
+
   .pd-container {
     max-width: calc(100%) !important;
   }
@@ -2434,6 +2435,45 @@ h3 {
 /* ------------------------------------------------- */
 .customer-liked {
   margin: 100px 0;
+}
+
+@media screen and (max-width: 768px) {
+
+  .pdta-myn-card-wrapper {
+    width: 100%;
+    padding-inline: 16px;
+    margin-block: 80px 40px;
+  }
+
+  .pdta-container {
+    width: 100%;
+  }
+
+  .pdta-myn-card-wrapper ul {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 0px;
+  }
+
+  .pdta-myn-card {
+    width: 220px;
+    height: 376px;
+    position: relative;
+    border: 1px solid #e1e1e1;
+  }
+
+  .pdta-myn-card-wrapper ul li {
+    width: 50%;
+  }
+
+  .pdta-myn-card {
+    width: 100%;
+  }
+
+  .customer-liked {
+    margin-block: 50px 100px;
+  }
+
 }
 
 /* ///////////////////////// mobile sort slideup ///////////////////////////// */
