@@ -1584,7 +1584,6 @@ main hr {
   }
 }
 
-/* ///////////////////// Product listing ////////////////////// */
 /* ///////////////////// Product details ////////////////////// */
 /* ///////////////////// Product details ////////////////////// */
 /* ///////////////////// Product details ////////////////////// */
@@ -1663,13 +1662,16 @@ main hr {
 
   .pdta-container section {
     width: 100%;
-    padding-right: 20px;
+    margin: 0;
+    padding-inline: 20px;
   }
+  
 
   .pdta-left-part,
   .pdta-right-part {
     width: 100%;
-    padding-right: 20px;
+    padding: 0px;
+    margin: 0;
   }
 
   .pdta-imgs-wrapper {
@@ -2582,3 +2584,4 @@ h3 {
 }
 
 /* ///////////////////////// END ///////////////////////////// */
+
