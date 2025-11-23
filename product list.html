@@ -2404,8 +2404,21 @@
       }
     });
   </script>
+  <script>
+    let a = document.querySelector('.menu-toggle');
+    a.addEventListener('click', function () {
+      let b = document.querySelector('.mb-header');
+      if (b.style.display === "none") {
+        b.style.display = "block";
+      }
+      else {
+        b.style.display = "none";
+      }
+    });
+  </script>
 </body>
 
 
 </html>
+
 
